@@ -28,7 +28,7 @@ jobs:
     steps:
       - name: Pre-run checks
         id: prerun
-        uses: dagster-io/dagster-cloud-action/actions/utils/prerun@v0.1
+        uses: dagster-io/dagster-cloud-action/actions/utils/prerun@v0.1.38
 
       # Checkout the project
       - name: Checkout
