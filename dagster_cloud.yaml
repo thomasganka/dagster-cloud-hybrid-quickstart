@@ -4,5 +4,5 @@ locations:
       package_name: quickstart_etl
     build:
       directory: ./
-      registry: <account-id>.dkr.ecr.us-west-2.amazonaws.com/<image-name>
+      registry: 007292508084.dkr.ecr.us-east-2.amazonaws.com/ganka-sandbox
       # registry: ghcr.io/<org>/<image-name>
