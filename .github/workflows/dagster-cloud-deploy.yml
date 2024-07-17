@@ -27,8 +27,6 @@ jobs:
   dagster-cloud-deploy:
     runs-on: ubuntu-20.04
     steps:
-      # If this is a closed PR the prerun step closes the branch deployment and returns
-      # output.result='skip' which is used to skip other steps in this workflow. 
       - name: Pre-run checks
         id: prerun
         uses: dagster-io/dagster-cloud-action/actions/utils/prerun@v0.1
